@@ -1,0 +1,84 @@
+#include <iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string id;
+    cout << "Enter Your National Id : ";
+    cin >> id;
+
+    if (id[0] == '3')
+        cout << "Your Date Is : " << "20" << id[1] << id[2] << " / " << id[3] << id[4] << " / " << id[5] << id[6] << endl;
+    else if (id[0] == '2')
+        cout << "Your Date Is : " << "19" << id[1] << id[2] << " / " << id[3] << id[4] << " / " << id[5] << id[6] << endl;
+    else
+        cout << "Your National Id Is Wrong";
+    {if (id[12] % 2 == 0)
+        cout << "Gander :- " << " Female" << endl;
+    else
+        cout << "Gander :- " << " Male" << endl;
+    }
+    {
+        if (id[7] == '0' && id[8] == '1')
+            cout << "Your City Is :- " << "Cairo";
+        else if (id[7] == '0' && id[8] == '2')
+            cout << "Your City Is :- " << "Alexandria";
+        else if (id[7] == '0' && id[8] == '3')
+            cout << "Your City Is :- " << "Port Said";
+        else if (id[7] == '0' && id[8] == '4')
+            cout << "Your City Is :- " << "Suez";
+        else if (id[7] == '1' && id[8] == '1')
+            cout << "Your City Is :- " << "Damietta";
+        else if (id[7] == '1' && id[8] == '2')
+            cout << "Your City Is :- " << "Dakahlia";
+        else if (id[7] == '1' && id[8] == '3')
+            cout << "Your City Is :- " << "Sharqia";
+        else if (id[7] == '1' && id[8] == '4')
+            cout << "Your City Is :- " << "Qalyubia";
+        else if (id[7] == '1' && id[8] == '5')
+            cout << "Your City Is :- " << " Kafr El Sheikh";
+        else if (id[7] == '1' && id[8] == '6')
+            cout << "Your City Is :- " << "Gharbia";
+        else if (id[7] == '1' && id[8] == '7')
+            cout << "Your City Is :- " << "Monufia";
+        else if (id[7] == '1' && id[8] == '8')
+            cout << "Your City Is :- " << "Beheira";
+        else if (id[7] == '1' && id[8] == '9')
+            cout << "Your City Is :- " << "Ismailia";
+        else if (id[7] == '2' && id[8] == '1')
+            cout << "Your City Is :- " << "Giza";
+        else if (id[7] == '2' && id[8] == '2')
+            cout << "Your City Is :- " << "Beni Suef";
+        else if (id[7] == '2' && id[8] == '3')
+            cout << "Your City Is :- " << "Faiyum";
+        else if (id[7] == '2' && id[8] == '4')
+            cout << "Your City Is :- " << "Minya";
+        else if (id[7] == '2' && id[8] == '5')
+            cout << "Your City Is :- " << "Asyut";
+        else if (id[7] == '2' && id[8] == '6')
+            cout << "Your City Is :- " << "Sohag";
+        else if (id[7] == '2' && id[8] == '7')
+            cout << "Your City Is :- " << "Qena";
+        else if (id[7] == '2' && id[8] == '8')
+            cout << "Your City Is :- " << "Aswan";
+        else if (id[7] == '2' && id[8] == '9')
+            cout << "Your City Is :- " << "Luxor";
+        else if (id[7] == '3' && id[8] == '1')
+            cout << "Your City Is :- " << "Albahr Alahmir";
+        else if (id[7] == '3' && id[8] == '2')
+            cout << "Your City Is :- " << "Alwadi Aljadid";
+        else if (id[7] == '3' && id[8] == '3')
+            cout << "Your City Is :- " << "Matruh";
+        else if (id[7] == '3' && id[8] == '4')
+            cout << "Your City Is :- " << "North Sinai";
+        else if (id[7] == '3' && id[8] == '5')
+            cout << "Your City Is :- " << "South Sinai";
+        else if (id[7] == '8' && id[8] == '8')
+            cout << "Out Egypt";
+        cout << "\n" << "                                ******* ";
+        cout <<"\n" << "                                BY : Youssef Nassar ";
+        cout << "\n" << "                                ******* ";
+
+    }
+    return 0;
+}
